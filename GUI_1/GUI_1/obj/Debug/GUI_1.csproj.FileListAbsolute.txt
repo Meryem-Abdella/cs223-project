@@ -9,3 +9,5 @@ C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.csproj.Ge
 C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.csproj.CoreCompileInputs.cache
 C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.exe
 C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.pdb
+C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.main_page.resources
+C:\Users\meryem\Documents\GitHub\c-project\GUI_1\GUI_1\obj\Debug\GUI_1.Display.resources

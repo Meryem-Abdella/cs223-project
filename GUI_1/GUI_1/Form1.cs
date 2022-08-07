@@ -16,7 +16,10 @@ namespace GUI_1
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
         private void btn_add_Click(object sender, EventArgs e)
         {
             Model md = new Model();
@@ -41,5 +44,7 @@ namespace GUI_1
         {
             this.Close();
         }
+
+       
     }
 }

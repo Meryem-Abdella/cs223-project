@@ -43,13 +43,15 @@
             this.btn_add = new System.Windows.Forms.Button();
             this.grid_view = new System.Windows.Forms.DataGridView();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.grid_view)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 24);
+            this.label1.Location = new System.Drawing.Point(31, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -58,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(167, 24);
+            this.label2.Location = new System.Drawing.Point(167, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 1;
@@ -67,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(424, 24);
+            this.label3.Location = new System.Drawing.Point(407, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 13);
             this.label3.TabIndex = 2;
@@ -76,7 +78,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(578, 24);
+            this.label4.Location = new System.Drawing.Point(578, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 3;
@@ -85,7 +87,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(31, 117);
+            this.label5.Location = new System.Drawing.Point(31, 87);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 4;
@@ -94,7 +96,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(167, 117);
+            this.label6.Location = new System.Drawing.Point(167, 87);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 5;
@@ -102,49 +104,49 @@
             // 
             // txt_number
             // 
-            this.txt_number.Location = new System.Drawing.Point(34, 59);
+            this.txt_number.Location = new System.Drawing.Point(34, 40);
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(100, 20);
             this.txt_number.TabIndex = 6;
             // 
             // txt_inventorynum
             // 
-            this.txt_inventorynum.Location = new System.Drawing.Point(427, 62);
+            this.txt_inventorynum.Location = new System.Drawing.Point(411, 43);
             this.txt_inventorynum.Name = "txt_inventorynum";
             this.txt_inventorynum.Size = new System.Drawing.Size(100, 20);
             this.txt_inventorynum.TabIndex = 7;
             // 
             // txt_objectname
             // 
-            this.txt_objectname.Location = new System.Drawing.Point(581, 62);
+            this.txt_objectname.Location = new System.Drawing.Point(581, 43);
             this.txt_objectname.Name = "txt_objectname";
             this.txt_objectname.Size = new System.Drawing.Size(100, 20);
             this.txt_objectname.TabIndex = 8;
             // 
             // txt_count
             // 
-            this.txt_count.Location = new System.Drawing.Point(34, 155);
+            this.txt_count.Location = new System.Drawing.Point(34, 117);
             this.txt_count.Name = "txt_count";
             this.txt_count.Size = new System.Drawing.Size(100, 20);
             this.txt_count.TabIndex = 9;
             // 
             // txt_price
             // 
-            this.txt_price.Location = new System.Drawing.Point(170, 155);
+            this.txt_price.Location = new System.Drawing.Point(170, 117);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(100, 20);
             this.txt_price.TabIndex = 10;
             // 
             // txt_date
             // 
-            this.txt_date.Location = new System.Drawing.Point(170, 59);
+            this.txt_date.Location = new System.Drawing.Point(170, 40);
             this.txt_date.Name = "txt_date";
             this.txt_date.Size = new System.Drawing.Size(200, 20);
             this.txt_date.TabIndex = 11;
             // 
             // btn_add
             // 
-            this.btn_add.Location = new System.Drawing.Point(367, 155);
+            this.btn_add.Location = new System.Drawing.Point(34, 174);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(75, 23);
             this.btn_add.TabIndex = 12;
@@ -155,14 +157,14 @@
             // grid_view
             // 
             this.grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_view.Location = new System.Drawing.Point(34, 187);
+            this.grid_view.Location = new System.Drawing.Point(34, 214);
             this.grid_view.Name = "grid_view";
-            this.grid_view.Size = new System.Drawing.Size(543, 150);
+            this.grid_view.Size = new System.Drawing.Size(734, 150);
             this.grid_view.TabIndex = 13;
             // 
             // btn_cancel
             // 
-            this.btn_cancel.Location = new System.Drawing.Point(519, 155);
+            this.btn_cancel.Location = new System.Drawing.Point(170, 174);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(75, 23);
             this.btn_cancel.TabIndex = 14;
@@ -170,11 +172,35 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(557, 119);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(60, 17);
+            this.radioButton1.TabIndex = 16;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Sample";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(557, 157);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(63, 17);
+            this.radioButton2.TabIndex = 17;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Vairable";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.grid_view);
             this.Controls.Add(this.btn_add);
@@ -190,8 +216,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid_view)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -215,6 +243,8 @@
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.DataGridView grid_view;
         private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
