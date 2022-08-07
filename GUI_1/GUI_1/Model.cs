@@ -17,6 +17,10 @@ namespace GUI_1
         public string count { get; set; }
         public string price { get; set; }
 
+        public Model findone(String Name)
+        {
+            return products.Find(p => p.objectname == Name);
+        }
         public void save()
         {
             products.Add(this);
@@ -26,6 +30,7 @@ namespace GUI_1
         {
             return products;
         }
+
 
     }
 }

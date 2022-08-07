@@ -41,5 +41,17 @@ namespace GUI_1
             scren.MdiParent = this;
             scren.Show();
         }
+
+        private void searchToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var activescreen = ActiveMdiChild;
+            if (activescreen != null)
+            {
+                activescreen.Close();
+            }
+            Search scren = new Search();
+            scren.MdiParent = this;
+            scren.Show();
+        }
     }
 }

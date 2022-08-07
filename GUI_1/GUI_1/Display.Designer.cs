@@ -57,7 +57,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.grid2_view);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Display";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Display";
             this.Load += new System.EventHandler(this.Display_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grid2_view)).EndInit();
